@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Tesouro - Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="d-flex align-items-center justify-content-center min-vh-100 bg-light">
+
+    <div class="container">
+        <!-- Card Principal -->
+        <div class="card shadow mx-auto p-4" style="max-width: 400px;">
+            <!-- Título -->
+            <div class="text-center mb-4">
+                <h1 class="fw-bold" style="color: #6c5c2c">Meu Tesouro</h1>
+            </div>
+
+            <!-- Formulário de Login -->
+            <form>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Endereço de e-mail" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Senha" required>
+                </div>
+                <button type="submit" class="btn btn-custom w-100">Entrar</button>
+            </form>
+
+            <!-- Link de Registro -->
+            <div class="text-center my-3">
+                <span>Não tem uma conta? <a href="#" style="color: #6c5c2c">Registrar</a></span>
+            </div>
+
+            <!-- Ou com linha divisória -->
+            <div class="d-flex align-items-center my-2">
+                <hr class="flex-grow-1">
+                <span class="mx-2 text-muted">OU</span>
+                <hr class="flex-grow-1">
+            </div>
+
+            <!-- Login com Redes Sociais -->
+            <div class="text-center">
+                <!-- Caminhos para imagens locais -->
+                <a href="#">
+                    <img src="imagens/facebook.png" alt="Facebook" class="social-icon mx-2">
+                </a>
+                <a href="#">
+                    <img src="imagens/microsoft.png" alt="Microsoft" class="social-icon mx-2">
+                </a>
+                <a href="#">
+                    <img src="imagens/google.png" alt="Google" class="social-icon mx-2">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle com JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
